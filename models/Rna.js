@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const RnaSchema = new mongoose.Schema({
-  begin_position: Number,
+begin_position: Number,
   end_position: Number,
   isoforms: [
     {
